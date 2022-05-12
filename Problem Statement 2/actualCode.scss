@@ -1,0 +1,34 @@
+.head {
+      
+      padding: $common-padding;
+      padding-left: $common-margin;
+      margin-bottom: $common-margin;
+      background: $black-bg-color;
+      h3 {
+            color: $white-color;
+      }
+}
+
+.form-box {
+      background: rgb(197, 194, 194);
+      padding: $common-padding;
+      @include border-radius(4px);
+}
+
+.form-control {
+      color: rgb(230, 229, 229);
+}
+
+.form-group:last-child {
+      margin-top: $common-padding + 1;
+}
+.green-btn {
+      background-color: $green-color;
+      color: $white-color;
+}
+
+@media screen and (max-width: 800px) {
+      .form-box {
+            margin-bottom: $common-padding + 2;
+      }
+}
